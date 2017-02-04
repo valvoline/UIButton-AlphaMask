@@ -10,7 +10,7 @@ The proposed solution is really simple. It involves the use of two extensions (o
 As you can see, the two buttons overlap themselves and share the same area. They share a common triangle style area and some of the touch events on transparent areas are passed on to the green UIButton underneath (and viceversa).
 
 <p align="center">
-
+	<img src="https://github.com/valvoline/UIButton-AlphaMask/blob/master/UIButtonMask.gif">
 </p>
 
 Requirements
