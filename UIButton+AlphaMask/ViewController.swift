@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  UIButton+AlphaMask
+//  ButtonMask
 //
-//  Created by valvoline on 04/02/2017.
+//  Created by Costantino Pistagna on 03/02/2017.
 //  Copyright © 2017 sofapps. All rights reserved.
 //
 
@@ -18,6 +18,14 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    @IBAction func button1DidPressed(sender: Any) {
+        print("button1DidPressed")
+    }
+
+    @IBAction func button2DidPressed(sender: Any) {
+        print("button2DidPressed")
     }
 
 
